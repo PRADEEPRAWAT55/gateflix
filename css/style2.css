@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img{    
+  position: relative;
+  transform: translateX(40%);
+}
+
+.payment{
+align-self: center;
+display: none;
+size: 50px;
+width: 180px;
+text-align: center;
+}
+
+.card-footer{
+border-bottom: 2px white solid;  
+position: relative;
+align-items: center;
+align-content: center;
+}
+
+.card-header:hover > .dot{
+  background: linear-gradient(to bottom right, rgb(74, 204, 221) , rgb(158, 193, 209)); border-radius: 10px;
+  color:rgb(130, 230, 247);
+  text-shadow: 3px;
+}
+
+.card-footer:hover > .payment{
+   display: block;
+   background: linear-gradient(to bottom right, rgb(74, 204, 221) , rgb(158, 193, 209)); border-radius: 10px;
+  }
+
+.dot {
+  padding-top: 10px;    
+  text-align: center;
+  float: right;
+  height: 45px;
+  width: 45px;
+  border: 1px rgb(167, 10, 10) solid;
+  border-radius: 50%;
+ }
+
+.anim{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+ 0%   {opacity:1 }
+ 25%  {opacity:0 }
+ 50%  {opacity:1 }
+ 75%  {opacity:0 }
+}
+
+.dropdown-toggle{
+  align-self: center;
+}
+
+body,
+input {
+  font-family: 'poppins', sans-serif;
+}
+
+nav {
+  font-weight: 700;
+}
+
+.nav-color {
+  background-image: linear-gradient(to right top, #2ef1e8,  #1eb1a9);
+}
+
+.nav-login {
+  font-size: 13px;
+  margin-right: 30px;
+}
+
+.btn {
+  color: black;
+}
+
+.counter {
+  background-image: linear-gradient(to right top, #2ef1e8,  #1eb1a9);
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.count-icon-color {
+  color: rgb(12, 8, 8);
+}
+
+.count-title {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+.count-text {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+
+.feedback-text {
+  padding-top: 40px;
+  color: black;
+  font-weight: 600;
+}
+
+.feedback-hadding {
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: rgb(130, 239, 247);
+}
+
+.fp {
+  font-weight: 500;
+}
+
+.checked {
+  color: red;
+}
+
+.size {
+  font-size: 13px;
+}
+
+
+.footer-text-heading {
+  color: black;
+  align-items: center;
+  text-align: justify;
+}
+
+.hr {
+  width: 90%;
+  text-align: left;
+  margin-left: 0;
+  height: 2px;
+  background-color: rgb(247, 29, 29);
+}
+
+a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-color {
+  background-image: linear-gradient(to right top, #2ef1e8,  #1eb1a9);
+}
+
+footer {
+  margin-top: 40px;
+  
+}
+
+.read-more {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(44, 179, 233);
+  text-align: center;
+  /* border-bottom: 3px solid black; */
+  font-size: 15px;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 4px;
+
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-padding {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 5px;
+  /* border: 1px solid black; */
+  background-image: linear-gradient(to right top, #2ef1e8,  #1eb1a9);
+  color: white;
+}
+
+table{
+  border-collapse: separate !important;
+  border-spacing: 1;
+  border-bottom: #161616;
+  margin: 3px;
+}
+
+.wrap ,tr{
+  border: outset #ccc 1px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 5px rgb(71, 69, 69);
+  -moz-box-shadow: 0 5px 5px rgb(71, 69, 69);
+  box-shadow: 0 1px 1px rgb(71, 69, 69);
+}
+
+.btn-trans {
+  width: 250px;
+  text-align: start;
+  outline: transparent;
+  color: white;
+}
+
+.btn-toggle {
+  
+  text-align: end;
+  color: white;
+}
+
+
+.fbb {
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+.check-color {
+  color: rgb(238, 23, 51);
+}
+
+.registration-form {
+  margin: auto;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  box-shadow: 1px 1px 7px grey;
+}
+
+.registration-input-container {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.registration-icon {
+  padding: 10px;
+  background: linear-gradient(to bottom right, rgb(125, 238, 228), rgb(158, 209, 205));
+  color: black;
+  min-width: 50px;
+  min-height: 50px;
+  height: max-content;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.registration-input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid white;
+  background-color: rgb(240, 240, 240);
+
+}
+
+.registration-input-field:hover {
+  border: 2px solid rgb(230, 194, 36);
+}
+
+.registration-btn {
+
+  background-image: linear-gradient(to right top, #2ef1e8,  #1eb1a9);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.registration-btn:hover {
+  opacity: 1;
+  background-image: linear-gradient(to right top, #2ef1e8,  #1eb1a9);
+}
+
+.sb {
+  border: 1px solid gainsboro;
+  padding: 15px;
+  background-color: white;
+  height: auto;
+  width: auto;
+  box-shadow: 1px 1px 7px grey;
+}
+
+.sale-style-container {
+  border: 1px solid rgb(60, 217, 238);
+  /* background-color: gainsboro; */
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  font-size: 14px;
+  padding: 7px;
+  align-items: center;
+  color: rgb(60, 217, 238);
+  box-shadow: 1px 1px 7px grey;
+}
+
+.sb-btn {
+  padding: 10px;
+  color: rgb(60, 217, 238);
+  border-radius: 4px;
+  border: 1px solid rgb(60, 217, 238);
+  box-shadow: 1px 1px 7px grey;
+}
+
+.sale-style-container:hover {
+  color: rgb(2, 2, 2);
+  background-color: rgb(60, 217, 238);
+}
+
+.sb-btn:hover {
+  color: rgb(2, 2, 2);
+  background-color: rgb(60, 217, 238);
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+/*set image properties*/
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/*set padding to the container*/
+.wrapper {
+  padding: 16px;
+}
+
+/*set the forgot password text*/
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/*set the Modal background*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 20px;
+}
+
+/*style the model content box*/
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/*style the close button*/
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* add zoom animation*/
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+      -webkit-transform: scale(0)
+  }
+
+  to {
+      -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+      transform: scale(0)
+  }
+
+  to {
+      transform: scale(1)
+  }
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+      display: block;
+      float: none;
+  }
+
+  .cancelbtn {
+      width: 100%;
+  }
+}
+.wrapper
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.signupbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}

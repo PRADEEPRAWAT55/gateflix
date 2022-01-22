@@ -1,0 +1,104 @@
+.container{
+    margin:20px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.modal-design {
+    border-radius: 10px;
+    border: 7px solid #6092b6;
+    padding: 0;
+    margin-top:0;
+    border: none;
+}
+
+.modal-padding
+{
+    padding: unset;
+    margin: 0;
+}
+  
+.modal-p-signup {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    color: #0E101A;
+    font-size: 17px;
+    
+}
+
+.registration-form {
+    margin: auto;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px grey;
+}
+
+.registration-input-container {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.registration {
+    padding: 15px;
+    background: linear-gradient(to bottom right, rgb(125, 238, 228), rgb(158, 209, 205));
+    color: black;
+    font-size: large;
+    min-width: 50px;
+    min-height: 50px;
+    height: max-content;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.registration-icon {
+    padding: 15px;
+    background: linear-gradient(to bottom right, rgb(125, 238, 228), rgb(158, 209, 205));
+    color: black;
+    min-width: 50px;
+    min-height: 50px;
+    height: max-content;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    }
+
+    .registration-input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    
+    border: 1px solid white;
+    background-color: rgb(240, 240, 240);
+
+    }
+
+    .registration-input-field:hover {
+    border: 2px solid rgb(230, 194, 36);
+    }
+
+    .registration-btn {
+
+    background-image: linear-gradient(to right top, #2ef1e8,  #1eb1a9);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+    }
+
+    .registration-btn:hover {
+    opacity: 1;
+    background-image: linear-gradient(to right top, #2ef1e8,  #1eb1a9);
+    }

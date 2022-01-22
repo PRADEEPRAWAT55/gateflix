@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+  .container-fluid{
+    padding: 16px;
+    margin: 10px;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.dropdown-toggle{
+  align-self: center;
+}
+
+body,
+input {
+  font-family: 'poppins', sans-serif;
+}
+
+nav {
+  font-weight: 700;
+}
+
+.nav-color {
+  background: linear-gradient(to bottom right, rgb(238, 125, 125), rgb(158, 158, 209));
+
+}
+
+.btn {
+  color: black;
+}
+
+.checked {
+  color: red;
+}
+
+.footer-text-heading {
+  color: black;
+  align-items: center;
+  text-align: justify;
+}
+
+.hr {
+  width: 90%;
+  text-align: left;
+  margin-left: 0;
+  height: 2px;
+  background-color: rgb(247, 29, 29);
+}
+
+a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-color {
+  background: linear-gradient(to bottom right, rgb(238, 125, 125), rgb(158, 158, 209));
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.btn-padding {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 5px;
+  /* border: 1px solid black; */
+  background: linear-gradient(to bottom right, rgb(238, 125, 125), rgb(158, 158, 209));
+  color: white;
+}
+
+.btn-toggle {
+  
+  text-align: end;
+  color: white;
+}
+.fbb {
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+.check-color {
+  color: rgb(238, 23, 51);
+}
+
+
+.sb {
+  border: 1px solid gainsboro;
+  padding: 15px;
+  background-color: white;
+  height: auto;
+  width: auto;
+  box-shadow: 1px 1px 7px grey;
+}
+
+.sale-style-container {
+  border: 1px solid mediumvioletred;
+  /* background-color: gainsboro; */
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  font-size: 14px;
+  padding: 7px;
+  align-items: center;
+  color: mediumvioletred;
+  box-shadow: 1px 1px 7px grey;
+
+}
+
+.sb-btn {
+  padding: 10px;
+  color: mediumvioletred;
+  border-radius: 4px;
+  border: 1px solid mediumvioletred;
+  box-shadow: 1px 1px 7px grey;
+
+}
+.sale-style-container:hover {
+  color: rgb(2, 2, 2);
+  background-color: rgb(245, 207, 207);
+}
+
+.sb-btn:hover {
+  color: rgb(2, 2, 2);
+  background-color: rgb(245, 207, 207);
+}
